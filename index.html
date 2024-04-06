@@ -9,26 +9,28 @@
 </head>
 
 <body>
-    <div id="search-container">
-        <input type="text" name="search" placeholder="Search By Name or Symbol" />
-        <button id="marketCap">Sort By Mkt Cap</button>
-        <button id="percentage">Sort by percentage</button>
-    </div>
-    <div id="display-container">
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Symbol</th>
-                    <th>Current Price</th>
-                    <th>Total Volume</th>
-                    <th>&percnt; Change</th>
-                    <th>Market Cap</th>
-                </tr>
-            </thead>
-            <tbody id="display"></tbody>
-        </table>
-    </div>
+    <section>
+        <div id="search-container">
+            <input type="text" name="search" placeholder="Search By Name or Symbol" />
+            <button id="marketCap" class="btn">Sort By Mkt Cap</button>
+            <button id="percentage" class="btn">Sort by percentage</button>
+        </div>
+        <div id="display-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Symbol</th>
+                        <th>Current Price</th>
+                        <th>Total Volume</th>
+                        <th>&percnt; Change</th>
+                        <th>Market Cap</th>
+                    </tr>
+                </thead>
+                <tbody id="display"></tbody>
+            </table>
+        </div>
+    </section>
     <script src="./script.js"></script>
 </body>
 
